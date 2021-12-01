@@ -3,7 +3,7 @@ import React, { FunctionComponent, ReactNode } from "react";
 const Button: FunctionComponent<{ children: ReactNode | string }> = ({
   children = "Button",
 }) => {
-  return <button style={{ border: "1px solid red" }}>{children}</button>;
+  return <button className="text-red-500">{children}</button>;
 };
 
 export default Button;
